@@ -2,9 +2,6 @@ name: Pylint
 
 # modificamos para añadir paths
 on: 
-  push:
-    paths:
-      - '**.py'
   pull_request:
     branches: [ main ]
     paths:
